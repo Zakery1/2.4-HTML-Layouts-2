@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+header {
+    background: black;
+    
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+main {
+    background: limegreen;
+    height: 600px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.middleleftdiv {
+    flex: 1;
+    background: white;
+    padding-right: 10px;
+    
+}
+
+.middlerightdiv {
+    flex: 3;
+    background: white;
+}
+
+.midnavbar {
+    background: white;
+    height: 40px;
+    border-bottom: black;
+    
+    
+}
+
+.middlerightone {
+    background: black;
+}
+
+.middlerighttwo {
+background: pink;
+}
+
+
+.middlerightthree {
+    background: blue;
+}
+
+
+
+.navbar {
+    background: black;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+}
+
+.left-container {
+    background: black;
+    display: flex;
+    align-items: center;
+    flex: 3;
+    height: 100%;
+    /* padding-bottom: 10px; */
+    margin: 0 auto;
+
+}
+
+
+.right-container {
+    background: black;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.two {
+    float: right;
+}
+
+.topleftbuttons {
+    cursor: pointer;
+    margin-left: 18px;
+    font-size: 15px;
+    color: grey;
+    background: black;
+    border: none;
+}
+
+.one, .two {
+    background: white;
+}
+
+.btTxt {
+    height: 30px;
+
+}
+
+.ov {
+    margin-left: none;
+}
+
+.toprightbuttons {
+    float: right;
+}
+
+.midbutt {
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 20px;
+    color: grey;
+    background: white;
+}
+
+.topleftsearcbar {
+    height: 30px;
+    width: 30%;
+    background: rgb(66, 62, 62);
+
+}
+
+.profile {
+    height: 280px;
+    width: 100%;
+}
+
+.profilename {
+    height: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    color:grey;
+}
+
+.addbio {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+}
+
+.editprofile {
+    margin-top: 4px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+}
+
+.abovesquares  {
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 5px grey;
+    padding-right: 20px;
+}
+
+.listed-repos {
+    display: flex;
+    border-top: 1px grey;
+}
+
+.middleleftdivs {
+   height: 50px;
+   border-top: 1px grey;
+}
+
+.middlerightdivs {
+    border-top: 1px grey;
+    
+}
+
+.middle-left-ones, .middle-right-ones {
+    height: 140px;
+    text-align: left;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: blue;
+    background-attachment: none;
+    border-width: 1px;
+    border-color: lightgrey;
+    margin: 10px;
+}
+
+/* .middle-right-ones {
+    width: 400px;
+    height: 140px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: blue;
+    background-attachment: none;
+    border: none;
+    border-width: 1px;
+    border-color: green;
+    margin: 10px;
+} */
+
+
+
+
+
+.lower-nav-bar {
+    display: flex;
+    padding-top: 10px;
+}
+
+.lower-left-container {
+    flex: 3;
+    text-align: center;
+}
+
+.lower-right-container {
+    flex: 3;
+    text-align: center;
+    
+}
+
+.lower-left-buttons {
+    display: inline-block;
+    color: grey;
+    font-size: 10px;
+    
+}
+
+.lower-right-buttons {
+
+}
+
+.the-lower-left-buttons {
+    background: none;
+    border: none;
+    color: blue;
+}
+
+.the-lower-right-buttons {
+    background: none;
+    border: none;
+    color: blue;
+}
+
+.one, .two {
+    color: grey;
+}
