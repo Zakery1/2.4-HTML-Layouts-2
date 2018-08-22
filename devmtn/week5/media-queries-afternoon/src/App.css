@@ -1,0 +1,230 @@
+
+
+.upper-div {
+background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+background-size: cover;
+min-height: 300px;
+text-align: center;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.image {
+  background-image: url('https://i.pinimg.com/originals/3c/76/1a/3c761a318e0386a41998f493c8a7f6de.jpg');
+  height: 200px;
+  width: 400px;
+  background-repeat: no-repeat;
+  margin-left: 12vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-size: auto 100%;
+
+}
+
+.services {
+  margin-top: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.first-body {
+  background:black;
+  color: white;
+  border: black 2px solid;
+  height: 500px;
+  margin: 4px;
+  text-decoration: none;
+
+  /* display: flex; */
+}
+
+.section-name {
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+}
+
+.section-button {
+
+  z-index: 5;
+  color: black;
+  background-attachment: whitesmoke;
+  margin-left: 33.5vw;
+  font-size: 20px;
+  border: 2px yellow solid;
+  bottom: 0;
+}
+
+.large {
+  display: none;
+}
+
+.brand {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  color: #fed316;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  width: 100vw;
+}
+
+.menu {
+  
+}
+
+/* .menu-button {
+  background: green;
+ 
+} */
+
+.drawer {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  height: 0;
+  background: black;
+  color: #eee;
+  padding: 0px;
+  /* height: calc(100vh - 50px); */
+  transition: height 2s;
+  display: none;
+}
+
+.open {
+  width: 100vw;
+  height: 100px;
+  left: 0;
+  right: 20px;
+  display: initial;
+
+  /* height: calc(100vh - 50px); */
+
+}
+
+.menu-button {
+  background: #fed316;
+  height: 30px;
+  width: 75px;
+  border: none;
+  margin-right: 5px;
+}
+
+
+
+.mobile-menu-buttons:hover {
+  cursor: pointer;
+}
+
+
+
+
+@media (min-width: 650px) {
+  .large {
+    display: initial;
+  }
+
+  .top-menu-buttons {
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+
+  }
+
+  .small {
+    display: none;
+  }
+
+  .drawer, .open {
+    display: none;
+    
+  }
+
+  .section-button {
+
+    z-index: 5;
+    color: black;
+    background-attachment: white;
+    margin-left: 45.2vw;
+    font-size: 20px;
+    border: 2px yellow solid;
+    bottom: 0;
+  }
+
+  .drawer .open {
+    flex-direction: column;
+  }
+
+  .image {
+    background-image: url('https://i.pinimg.com/originals/3c/76/1a/3c761a318e0386a41998f493c8a7f6de.jpg');
+    height: 300px;
+    width: 40vw;
+  
+    background-repeat: no-repeat;
+    margin-left: 35vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: auto 100%;
+  
+  }
+
+}
+
+.drawer-buttons {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  background: black;
+}
+
+.mobile-menu-buttons {
+  color: white;
+  background: black;
+  border: none;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+
+
+.tell-me-button {
+  background:#fed316;
+  border: none;
+}
+
+.welcome {
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+.meet-you {
+  font-size: 40px;
+}
+
+#portfolio {
+  height: 100vh;
+}
+
+
+
